@@ -7,35 +7,38 @@ body {
     width: 100vw;
     position: absolute;
     background-image: url("./lion.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
 }
 
 .cheetah {
 height: 100vh;
+width: 100vw;
 position: absolute;
-background-image: url("https://www.istockphoto.com/photo/portrait-of-hunting-cheetah-in-high-grass-gm1087028804-291643484?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcheetah&utm_medium=affiliate&utm_source=unsplash&utm_term=cheetah%3A%3A%3A");
+background-image: url("./cheetah.jpg");
 background-position: center;
-
+background-size: 100%;
 }
 
 .dog {
 height: 100vh;
+width: 100vw;
 position:absolute;
-background-image: url("https://unsplash.com/photos/black-dog-wearing-blue-denim-collar-K4mSJ7kc0As");
+background-image: url("./dog.jpg");
 background-position: center;
-background-size: cover;
+background-size: 100%;
 }
 nav {
     display: flex;
     align-items: center;
-    
+    flex-direction: row;  
 } 
+
 ul {
     z-index: 1;
 }
 header {
     position: relative;
     display: flex;
-    color: red;
+    color: rgb(14, 14, 14);
 }
